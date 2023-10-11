@@ -58,9 +58,9 @@ Neste exercício, verificamos se você é capaz de:
 
 1. Clone o repositório
 
-- Use o comando: `git clone git@github.com:tryber/python-0x-exercicio-the-bug-hunting.git`
+- Use o comando: `git clone git@github.com:tryber/python-001-exercicio-the-bug-hunting.git`
 - Entre na pasta do repositório que você acabou de clonar:
-  - `cd python-0x-exercicio-the-bug-hunting`
+  - `cd python-001-exercicio-the-bug-hunting`
 
 2. Instale as dependências
 
@@ -79,7 +79,7 @@ Neste exercício, verificamos se você é capaz de:
 4. Crie na raiz do exercício os arquivos que você precisará desenvolver:
 
 - Verifique que você está na raiz do exercício:
-  - Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**python-0x-exercicio-the-bug-hunting**_
+  - Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**python-001-exercicio-the-bug-hunting**_
 - Crie ou edite algum arquivo necessário ao exercício
 
 5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
@@ -308,7 +308,7 @@ Top 10 músicas mais instrumentais:
 <details>
 <summary><strong> 🗣 Nos dê feedbacks sobre o exercício!</strong></summary><br />
 
-Ao finalizar e submeter o exercício, não se esqueça de avaliar sua experiência preenchendo o [formulário](https://be-trybe.typeform.com/to/ZTeR4IbH).
+Ao finalizar e submeter o exercício, não se esqueça de avaliar sua experiência preenchendo o [formulário](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH1&template=betrybe/python-0x-exercicio-the-bug-hunting).
 **Leva menos de 3 minutos!**
 
 </details>
