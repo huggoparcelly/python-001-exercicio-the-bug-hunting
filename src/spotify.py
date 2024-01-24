@@ -40,23 +40,19 @@ def read_csv(path: str) -> List[Dict[str, str]]:
 def get_most_instrumental_songs(
     data: List[Dict[str, str]]
 ) -> List[Dict[str, str]]:
-    return sorted(
-        data, key=lambda x: float(x["instrumentalness"]), reverse=True
-    )[:10]
+    return sorted(data, key=lambda x: float(x["Instrumentalness"]), reverse=True)[:10]
 
 
 def get_most_danceable_songs(
     data: List[Dict[str, str]]
 ) -> List[Dict[str, str]]:
-    return sorted(data, key=lambda x: float(x["danceability"]), reverse=True)[
-        :10
-    ]
+    return sorted(data, key=lambda x: float(x["Danceability"]), reverse=True)[:10]
 
 
 def get_most_energetic_songs(
     data: List[Dict[str, str]]
 ) -> List[Dict[str, str]]:
-    return sorted(data, key=lambda x: float(x["energy"]), reverse=True)[:10]
+    return sorted(data, key=lambda x: float(x["Energy"]), reverse=True)[:10]
 
 
 OPTIONS = {
@@ -76,8 +72,8 @@ def handle_user_input(data, option) -> None:
     if option not in OPTIONS:
         print(get_invalid_option_help(option))
         raise ValueError
-    elif isinstance(option, int):
-        process_music_analysis(data, option)
+    
+    process_music_analysis(data, option)
 
 
 def main(file_path) -> int:
