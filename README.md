@@ -314,3 +314,4 @@ Ao finalizar e submeter o exercício, não se esqueça de avaliar sua experiênc
 </details>
 
 ---
+# python-001-exercicio-the-bug-hunting
